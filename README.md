@@ -1,9 +1,6 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Leaderboard
 
-# Project Name
-
-> Description the project.
-
+> In this repo I have set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. 
 
 ## Built With
 
@@ -67,7 +64,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
