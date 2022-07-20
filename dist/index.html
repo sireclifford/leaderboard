@@ -18,13 +18,8 @@
                     <button type="submit" class="refresh-btn"> Refresh </button>
                 </div>
                 <div class="body">
-                    <ul>
-                        <li class="board-item">Name: 100</li>
-                        <li class="board-item">Name: 120</li>
-                        <li class="board-item">Name: 70</li>
-                        <li class="board-item">Name: 300</li>
-                        <li class="board-item">Name: 470</li>
-                        <li class="board-item">Name: 30</li>
+                    <p class="error">No scores available. Click on the refresh button to get updates</p>
+                    <ul class="scores-list">
                     </ul>
                 </div>
             </div>
@@ -33,11 +28,11 @@
                     <h2>Add your score</h2>
                 </div>
                 <div class="body">
-                    <form action="/">
+                    <div id="form">
                         <input type="text" id="name" name="name" placeholder="Your name">
                         <input type="text" id="score" name="score" placeholder="Your score">
-                        <button type="submit">Submit</button>
-                    </form>
+                        <button type="submit" class="addScore">Submit</button>
+                    </div>
                 </div>
             </div>
         </section>
