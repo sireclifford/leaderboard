@@ -78,7 +78,7 @@ button.refresh-btn {
   min-width: 400px;
 }
 
-.board-create .body form {
+.board-create .body #form {
   margin-top: 15px;
   display: flex;
   flex-direction: column;
@@ -108,4 +108,14 @@ input[type="text"] {
 
 .row h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.error {
+  display: block;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.scores-list {
+  display: none;
 }
