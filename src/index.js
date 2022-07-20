@@ -34,6 +34,8 @@ addScore.addEventListener('click', (e) => {
   };
   postScore(scoreObj)
     .then((data) => {
+      document.querySelector('#name').value = '';
+      document.querySelector('#score').value = '';
       alert(data.result);
     })
     .catch((err) => {
