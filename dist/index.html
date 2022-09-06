@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leaderboard</title>
+<script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Leaderboard</h1>
+        </div>
+        <section class="content">
+            <div class="board-list">
+                <div class="header">
+                    <h2>Recent scores</h2>
+                    <button type="submit" class="refresh-btn"> Refresh </button>
+                </div>
+                <div class="body">
+                    <p class="error">No scores available. Click on the refresh button to get updates</p>
+                    <ul class="scores-list">
+                    </ul>
+                </div>
+            </div>
+            <div class="board-create">
+                 <div class="header">
+                    <h2>Add your score</h2>
+                </div>
+                <div class="body">
+                    <div id="form">
+                        <input type="text" id="name" name="name" placeholder="Your name">
+                        <input type="text" id="score" name="score" placeholder="Your score">
+                        <button type="submit" class="addScore">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
